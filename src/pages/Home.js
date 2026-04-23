@@ -1,12 +1,12 @@
 import React from "react";
-
+import profile from "../images/profile.jpg";
 function Home() {
   return (
     <div className="page">
       <h1>My Portfolio</h1>
       <img
         className="profile-image"
-        src="https://picsum.photos/220"
+        src={profile}
         alt="Profile"
       />
 
